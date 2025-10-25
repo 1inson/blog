@@ -41,7 +41,7 @@ export default defineConfig({
   },
   
   site: "https://1inson.github.io",
-  base: "/blog",
+  base: "/blog", 
   trailingSlash: "always",
 
   /*image: {
