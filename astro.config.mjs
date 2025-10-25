@@ -40,8 +40,8 @@ export default defineConfig({
     defaultStrategy: "hover"
   },
   
-  site: "https://fuwari.oh1.top/",
-  base: "/",
+  site: "https://1inson.github.io",
+  base: "/blog",
   trailingSlash: "always",
 
   /*image: {

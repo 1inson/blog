@@ -8,14 +8,14 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "yCENzh's Blog",
-	subtitle: "爱你所爱~",
+	title: "Linson's Blog",
+	subtitle: "学习技术 改变人生",
 	themeColor: {
 		hue: 275, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: true,
+		enable: false,//已关闭
 		src: "/Celestia.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
@@ -44,23 +44,23 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Series,
 		LinkPreset.About,
 		LinkPreset.Friends,
-		/*{
-			name: "GitHub",
-			url: "https://github.com/yCENzh", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},*/
 		{
+			name: "GitHub",
+			url: "https://github.com/1inson", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+		},
+		/*{
 			name: "开往",
 			url: "https://www.travellings.cn/train.html",
 			external: true,
-		},
+		},*/
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/' 原assets/images/demo-avatar.png,可选https://q2.qlogo.cn/headimg_dl?dst_uin=189563385&spec=0
-	name: "yCENzh",
-	bio: "Protect What You Love./爱你所爱！",
+	name: "Linson",
+	bio: "学习技术，记录成长",
 	links: [
 		/*{
 			name: "Twitter",
@@ -77,9 +77,9 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/yCENzh",
+			url: "https://github.com/1inson",
 		},
-		{
+		/*{
 			name: "Telegram",
 			icon: "fa6-brands:telegram",
 			url: "https://t.me/yCENzh",
@@ -88,7 +88,13 @@ export const profileConfig: ProfileConfig = {
 			name: "开往",
 			icon: "fa6-solid:train-subway",
 			url: "https://www.travellings.cn/train.html",
+		},*/
+		{
+			name: "LinkedIn",
+		    icon: "fa6-brands:linkedin",
+			url: "https://www.linkedin.com/in/%E6%98%8E%E6%A3%AE-%E6%9E%97-linson/",
 		},
+		
 	],
 };
 
