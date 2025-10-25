@@ -68,6 +68,11 @@ export default defineConfig({
       updateHead: true,
       updateBodyClass: false,
       globalInstance: true,
+      scripts: {
+        head: true,
+        body: true,
+        optin: false,
+      },
     }),
     icon({
       include: {
